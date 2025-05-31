@@ -46,6 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLab2A.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLab2A.Designer.cs">
+      <DependentUpon>frmLab2A.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLab2B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLab2B.Designer.cs">
+      <DependentUpon>frmLab2B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLab3C.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +90,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLab2A.resx">
+      <DependentUpon>frmLab2A.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLab2B.resx">
+      <DependentUpon>frmLab2B.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLab3A.resx">
       <DependentUpon>frmLab3A.cs</DependentUpon>
     </EmbeddedResource>
@@ -75,6 +108,9 @@
     <EmbeddedResource Include="frmLab3C.resx">
       <DependentUpon>frmLab3C.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -83,6 +119,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -96,6 +133,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloud316.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\raindrops2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snow263.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

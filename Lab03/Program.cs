@@ -16,7 +16,7 @@ namespace Lab03
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmLab3C());
+            Application.Run(new frmMenu());
         }
     }
 }
