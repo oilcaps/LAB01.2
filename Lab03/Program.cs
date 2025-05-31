@@ -1,12 +1,10 @@
-﻿using LAB01.Lab2;
-using Lab2;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LAB2
+namespace Lab03
 {
     static class Program
     {
@@ -18,8 +16,7 @@ namespace LAB2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmLab2B());
-            Application.Run(new frmLab2A());
+            Application.Run(new frmLab3C());
         }
     }
 }

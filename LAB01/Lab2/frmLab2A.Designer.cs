@@ -167,11 +167,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(157, 378);
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label1.Location = new System.Drawing.Point(131, 393);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(47, 15);
+            this.label1.Size = new System.Drawing.Size(417, 17);
             this.label1.TabIndex = 11;
-            this.label1.Text = "total";
+            this.label1.Text = "                                                   ";
             this.label1.Click += new System.EventHandler(this.label2_Click);
             // 
             // frmLab2A
