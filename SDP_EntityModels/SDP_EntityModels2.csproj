@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{960753E3-EB31-49AD-B9E9-7C43164F78B9}</ProjectGuid>
+    <ProjectGuid>{30BF4486-2C32-408C-8660-DF686BBDDC39}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>LAB01</RootNamespace>
-    <AssemblyName>LAB01</AssemblyName>
+    <RootNamespace>SDP_EntityModels2</RootNamespace>
+    <AssemblyName>SDP_EntityModels2</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NuGet.Frameworks, Version=6.14.0.116, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\NuGet.Frameworks.6.14.0\lib\net472\NuGet.Frameworks.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -55,29 +52,8 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Lab2\frmLab2B.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Lab2\frmLab2B.Designer.cs">
-      <DependentUpon>frmLab2B.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Lab2\frmLab2A.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Lab2\frmLab2A.Designer.cs">
-      <DependentUpon>frmLab2A.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Lab2\frmLab2A.resx">
-      <DependentUpon>frmLab2A.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Lab2\frmLab2B.resx">
-      <DependentUpon>frmLab2B.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -86,9 +62,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -101,18 +75,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\raindrops2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cloud316.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\sky.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\snow263.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
